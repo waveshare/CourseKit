@@ -1,0 +1,52 @@
+{
+
+	"Liquid.setPin|block":"模拟引脚连接在|%pin_arg|",
+	"Liquid.getADCValue|block":"获取adc值",
+	"Liquid.getVoltValue|block":"获取电压",
+
+	"Sound.setApin|block":"模拟引脚连接在|%a_pin_arg|",
+	"Sound.setDpin|block":"数字引脚连接在|%d_pin_arg|",
+	"Sound.getADCValue|block":"获取adc值",
+	"Sound.getVoltValue|block":"获取电压",
+	"Sound.getNoise|block":"是否处于噪音环境",
+
+
+
+	"Infrared.setApin|block": "模拟引脚连接在|%a_pin_arg|",
+	"Infrared.setDpin|block": "数字引脚连接在|%d_pin_arg|",
+	"Infrared.getADCValue|block": "获取adc值",
+	"Infrared.getVoltValue|block": "获取电压",
+	"Infrared.getClose|block": "是否靠近障碍物",
+
+
+	"Gas.setApin|block": "模拟引脚连接在|%a_pin_arg|",
+	"Gas.setDpin|block": "数字引脚连接在|%d_pin_arg|",
+	"Gas.getADCValue|block": "获取adc值",
+	"Gas.getVoltValue|block": "获取电压",
+	"Gas.getPolluted|block": "是否为污染过的空气",
+
+
+	"Flame.setApin|block": "模拟引脚连接在|%a_pin_arg|",
+	"Flame.setDpin|block": "数字引脚连接在|%d_pin_arg|",
+	"Flame.getADCValue|block": "获取adc值",
+	"Flame.getVoltValue|block": "获取电压",
+	"Flame.getFar|block": "是否远离火焰",
+
+
+	"Moisture.setPin|block": "模拟引脚连接在|%pin_arg|",
+	"Moisture.getADCValue|block": "获取adc值",
+	"Moisture.getVoltValue|block": "获取电压",
+
+	
+	"MCP23017.setAddress|block": "设置MCP23017器件地址|%addr|",
+	"MCP23017.readReg|block": "读取寄存器|%reg|的值",
+	"MCP23017.writePin|block": "设置组|%pin|引脚的值|%value|",
+	"MCP23017.readPin|block": "读取组|%pin|引脚的值",
+
+	"BME280.pressure|block": "获取气压",
+	"BME280.temperature|block": "获取温度",
+	"BME280.humidity|block": "获取湿度",
+	"BME280.forceMode|block": "运行模式",
+	"BME280.normalMode|block": "低功耗模式",
+	"BME280.setAddress|block": "设置BME280器件地址|%addr|"
+}
