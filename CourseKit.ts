@@ -928,8 +928,8 @@ namespace Ultrasonic{
 /*
 TSL2581 sensor
 */
-//% weight=8 color=#C0C0C0 icon="\uf069" block="TSL2581"
-namespace TSL2581{
+//% weight=8 color=#C0C0C0 icon="\uf069" block="Light"
+namespace Light{
 
     //must write as 1 when addressing COMMAND register
     const TSL2581_COMMAND_CMD = 0x80
@@ -1195,7 +1195,7 @@ namespace TSL2581{
 
     /**
      * set I2C address
-     * @param d_addr [29-49] choose device address; eg: TSL2581.TSL2581_I2C_ADDRESS.ADDR_0x39
+     * @param d_addr [29-49] choose device address; eg: Light.TSL2581_I2C_ADDRESS.ADDR_0x39
      */
     //% blockId="TSL2581_setAddress" 
     //% block="set TSL2581 device address %d_addr"
@@ -1207,7 +1207,7 @@ namespace TSL2581{
 
     /**
      * get register value,default value,default is 147
-     * @param r_addr [00-17] choose register address; eg: TSL2581.REGISTER.ID
+     * @param r_addr [00-17] choose register address; eg: Light.REGISTER.ID
      */
     //% blockId="TSL2581_readDeviceRegister" 
     //% block="get the register %r_addr value"
@@ -1228,7 +1228,7 @@ namespace TSL2581{
         configuePowerOn();
         basic.pause(2000);
         configueSetting();
-        let dev_ID = readDeviceRegister(TSL2581.REGISTER.ID);
+        let dev_ID = readDeviceRegister(Light.REGISTER.ID);
         if (dev_ID == 147) {
             initialized = true;
             //for debug
